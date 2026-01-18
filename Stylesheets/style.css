@@ -1,0 +1,16 @@
+.text-2 {
+    color: red !important;
+}
+
+.h1-shadow {
+    text-shadow: 2px 2px 4px black;
+} 
+.h1-shadow::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: yellow;
+    margin: 1rem auto 0;
+    border-radius: 2px;
+}
