@@ -69,3 +69,7 @@ body {
     margin: 0;
     padding: 0;
 }
+.card-img:hover {
+    transform: scale(1.05);
+    transition: .5s all;
+}

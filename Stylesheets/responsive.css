@@ -38,5 +38,9 @@
     border-radius: 10px;
     width: 370px;
 }
+.card-img:hover {
+    transform: scale(1.05);
+    transition: .5s all;
+}
     
 }
