@@ -1,13 +1,21 @@
 @media screen and (max-width:500px) {
-    body {
+    /* body {
         
-    }
+    } */
 }
 
 
 @media screen and (min-width:800px) {
-    body {
-        background-color: green;
-    }
+    /* body {
+
+    } */
+    .home-btn {
+    text-decoration: none;
+    font-size: 1.4rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px 29px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+}
     
 }
