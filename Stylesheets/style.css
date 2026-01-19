@@ -1,6 +1,10 @@
 body {
     background-color: whitesmoke;
 }
+::selection {
+    background-color: black;
+    color: red;
+}
 .text-2 {
     color: red !important;
 }
@@ -11,15 +15,17 @@ body {
 .h1-shadow::after {
     content: '';
     display: block;
-    width: 100px;
+    width: 110px;
     height: 4px;
-    background: yellow;
+    /* background: black; */
+    background-color: orange;
+    background-image: linear-gradient(120deg, red, green, blue);
     margin: 1rem auto 0;
-    border-radius: 2px;
+    border-radius: 22px;
 }
 .home {
     background-image: linear-gradient(135deg, #d32f2f 0%, #ff6f00 100%);
-    height: 87vh;
+    height: 84vh;
     max-width: 100%;
     display: flex;
     flex-direction: column;
