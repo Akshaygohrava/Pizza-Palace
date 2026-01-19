@@ -11,6 +11,8 @@ Demo
 - Or serve with a simple static server:
   - Python 3: `python -m http.server 8000` (then visit `http://localhost:8000`)
   - Node (http-server): `npx http-server .`
+ 
+  - ## 🚀 [Live Preview](https://akshayg-pizza-palace.netlify.app//)
 
 Key Features
 - Sleek, responsive homepage with hero, locations, opening hours, and contact CTA.
