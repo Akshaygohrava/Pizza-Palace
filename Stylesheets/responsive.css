@@ -6,9 +6,9 @@
 
 
 @media screen and (min-width:800px) {
-    /* body {
-
-    } */
+    body {
+    background-color: whitesmoke;
+    }
     .home-btn {
     text-decoration: none;
     font-size: 1.4rem;
@@ -16,6 +16,27 @@
     border-radius: 10px;
     padding: 20px 29px;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+}
+.home {
+    height: 90vh;
+}
+.s-pizzas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-top: -17px;
+}
+.card-img img {
+    object-fit: cover;
+    height: 260px;
+    width: 100%;
+}
+.card-img {
+    border: none;
+    border-radius: 10px;
+    width: 370px;
 }
     
 }

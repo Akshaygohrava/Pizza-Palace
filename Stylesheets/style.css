@@ -1,9 +1,12 @@
+body {
+    background-color: whitesmoke;
+}
 .text-2 {
     color: red !important;
 }
 
 .h1-shadow {
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 } 
 .h1-shadow::after {
     content: '';
@@ -16,7 +19,7 @@
 }
 .home {
     background-image: linear-gradient(135deg, #d32f2f 0%, #ff6f00 100%);
-    height: 80vh;
+    height: 87vh;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -43,4 +46,26 @@
 .home-btn2:hover {
     background-color: white !important;
     color: red !important;
+}
+.s-pizzas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: -25px;
+}
+.card-img img {
+    object-fit: cover;
+    height: 260px;
+    width: 100%;
+    border-radius: 9px;
+}
+.card-img {
+    border: none;
+    border-radius: 9px;
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 0;
 }
