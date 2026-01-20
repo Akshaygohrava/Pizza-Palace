@@ -1,7 +1,10 @@
 @media screen and (max-width:500px) {
-    /* body {
-        
-    } */
+    body {
+        background-color: whitesmoke;
+    }
+    .home-card {
+        margin-top: 20px;
+    }
 }
 
 
@@ -42,5 +45,12 @@
     transform: scale(1.05);
     transition: .5s all;
 }
-    
+    /* .home-card1 {
+        margin-right: 10px;
+    } */
+  .card-main {
+    display: flex;
+    flex-direction: row;
+  }
+
 }
