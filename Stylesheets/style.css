@@ -24,7 +24,9 @@ body {
     border-radius: 22px;
 }
 .home {
-    background-image: linear-gradient(135deg, #d32f2f 0%, #ff6f00 100%);
+    /* background-image: linear-gradient(135deg, #d32f2f 0%, #ff6f00 100%); */
+    background-image: url('../Images/Margherita\ Pizza.jpg');
+    background-size: cover;
     height: 84vh;
     max-width: 100%;
     display: flex;
