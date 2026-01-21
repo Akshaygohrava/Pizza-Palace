@@ -116,7 +116,7 @@ body {
    width: 90%;
    border-radius: 12px;
    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
-   transition: .6s all;
+   transition: .5s all;
 
 }
 .menu-items:hover {
