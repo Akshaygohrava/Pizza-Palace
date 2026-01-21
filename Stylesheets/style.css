@@ -106,11 +106,12 @@ body {
     align-items: center;
     gap: 30px;
     margin-top: -20px;
+    text-align: center;
 }
 .menu-items {
-    height: 350px;
+    height: 360px;
     width: 90%;
-    background-color: green;
+    background-color: transparent;
     border-radius: 14px;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
     transition: .2s ease-in-out all;
@@ -122,3 +123,14 @@ body {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
     border-color: #ff6b6b !important;
 }
+.menu-img {
+    height: 280px;
+    width: 100%;
+    background-size: contain;
+    border-radius: 14px;
+}
+.menutags {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 65px;
+} 
