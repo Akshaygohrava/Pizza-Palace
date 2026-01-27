@@ -5,6 +5,12 @@
     .home-card {
         margin-top: 20px;
     }
+   .lg-image {
+    display: none;
+}
+
+
+
 }
 
 
@@ -78,7 +84,6 @@
     margin: 10px 0;
     border-radius: 20px;
 }
-
 
 
 }
