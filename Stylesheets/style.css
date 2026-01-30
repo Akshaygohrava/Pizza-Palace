@@ -156,4 +156,39 @@ body {
 
 
 
-/* About Page Styling */
+/* Contact Page Styling */
+
+
+.c-form {
+    background: linear-gradient(120deg, #1A3263 80%, #ff6b6b 100%);
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+    color: #fff;
+}
+.c-form h3, .c-form h5 {
+    color: #fff;
+}
+.c-form .form-control, .c-form textarea {
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+    box-shadow: none;
+}
+.c-form .input-group-text {
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    font-size: 1.2rem;
+}
+.c-form .btn {
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background 0.3s, color 0.3s;
+}
+.c-form .btn:hover {
+    background: #fff;
+    color: #d32f2f;
+}
+.c-form textarea {
+    resize: none;
+}
+
