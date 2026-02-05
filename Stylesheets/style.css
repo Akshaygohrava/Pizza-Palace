@@ -159,7 +159,7 @@ body {
 /* Contact Page Styling */
 
 
-.c-form {
+/* .c-form {
     background: linear-gradient(120deg, #1A3263 80%, #ff6b6b 100%);
     border: none;
     border-radius: 18px;
@@ -190,5 +190,37 @@ body {
 }
 .c-form textarea {
     resize: none;
-}
+} */
 
+.c-form {
+    height: 400px;
+    background-color: rgba(245, 245, 245, 0.425);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    border: 1px solid black;
+    margin-bottom: 30px;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: -10px;
+    /* background-color: transparent; */
+}
+.c-form input {
+    background-color: rgba(245, 245, 245, 0.507) !important;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 12px;
+    outline: none;
+}
+.c-form input:focus {
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.521) !important;
+    color: white !important;
+}
+.c-form input::placeholder {
+   color: black !important;
+   font-size: 1.1rem;
+}
+.contact {
+    background-image: url('../Images/Menu-Items/download\ \(3\).jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
