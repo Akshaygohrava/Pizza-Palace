@@ -211,9 +211,12 @@ body {
     outline: none;
 }
 .c-form input:focus {
-    border: 1px solid red;
+    border: 1px solid orange;
     background-color: rgba(0, 0, 0, 0.521) !important;
     color: white !important;
+}
+.c-form input:focus::placeholder  {
+    color: orange !important;
 }
 .c-form input::placeholder {
    color: black !important;
@@ -222,5 +225,4 @@ body {
 .contact {
     background-image: url('../Images/Menu-Items/download\ \(3\).jpg');
     background-size: contain;
-    background-repeat: no-repeat;
 }
