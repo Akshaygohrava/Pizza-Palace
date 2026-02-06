@@ -11,6 +11,16 @@
 .c-form {
      height: 500px;
 }
+.c-form-data {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 }
 
@@ -89,5 +99,9 @@
     display: none;
 }
 
+/* Contact Page */
+.c-form {
+    height: 440px;
+}
 
 }
