@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../Stylesheets/responsive.css">
 </head>
 
-<body>
+<body class="sign-up">
     <nav class="navbar navbar-expand-lg p-3 navbar-dark bg-black">
         <div class="container">
             <a class="navbar-brand fw-bold fs-3 text-dark text-white text-2" href="../index.html"><i class="fas fa-pizza-slice"></i>
@@ -62,12 +62,31 @@
             </div>
         </div>
     </nav>
-    <h1>Sign-Up</h1>
+    <h1 class="text-center mt-3 text-white fw-bold">Sign Up</h1>
+
+    <form class="sign-up-form mt-3">
+         <label for="Name">Name</label><br>
+         <input type="text" name="Name" id="Name"><br>
+         <label for="Email">Email</label><br>
+         <input type="email" name="Email" id="Email"><br>
+         <label for="Password">Password</label><br>
+         <input type="password" name="Password" id="Password"><br>
+         <label for="Confirm Password">Confirm Password</label><br>
+         <input type="password" name="Confirm Password" id="Confirm Password"><br>
+         <label for="Number">Phn Number </label><br>
+         <input type="number" name="Number" id="Number"><br><br>
 
 
 
 
-<footer class="bg-dark text-white">
+        <button type="submit" class="btn btn-danger">Create an account</button>
+    </form>
+
+    
+
+
+
+<footer class="bg-dark text-white mt-4">
     <div class="container py-4">
       <div class="row g-4">
         <div class="col-lg-4">

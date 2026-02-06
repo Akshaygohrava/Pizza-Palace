@@ -215,3 +215,35 @@ body {
     background-image: url('../Images/Menu-Items/download\ \(3\).jpg');
     background-size: contain;
 }
+
+/* Sign Up */
+
+.sign-up-form {
+    border: 1px solid red;
+    height: 500px;
+    width: 88%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ff66006b;
+}
+.sign-up-form input {
+    padding: 7px 5px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.sign-up-form label {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: black;
+}

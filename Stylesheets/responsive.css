@@ -21,6 +21,17 @@
     margin-left: auto; */
 }
 
+/* Sign Up */
+.sign-up {
+    background-image: url('../Images/Menu-Items/download\ \(5\).jpg');
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+
+
+
 
 }
 
@@ -124,5 +135,12 @@
 .contact {
     background-image: url('../Images/Menu-Items/Top\ view\ Photos\ -\ Download\ Free\ High-Quality\ Pictures\ _\ Freepik.jpg');
 }
+
+/* Sign Up */
+.sign-up-form {
+    width: 50%;
+}
+
+
 
 }
