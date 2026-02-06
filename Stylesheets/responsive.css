@@ -101,7 +101,28 @@
 
 /* Contact Page */
 .c-form {
-    height: 440px;
+    height: 500px;
+    width: 50%;
+}
+.c-form input, textarea {
+    background-color: rgba(245, 245, 245, 0.507) !important;
+    border: none;
+    border-radius: 4px;
+    padding: 11px 11px;
+    outline: none;
+    width: 70%;
+}
+.c-form-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.c-btn {
+    width: 200px;
+}
+.contact {
+    background-image: url('../Images/Menu-Items/Top\ view\ Photos\ -\ Download\ Free\ High-Quality\ Pictures\ _\ Freepik.jpg');
 }
 
 }
