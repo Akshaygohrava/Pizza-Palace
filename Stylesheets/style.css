@@ -207,19 +207,19 @@ body {
     background-color: rgba(245, 245, 245, 0.507) !important;
     border: none;
     border-radius: 4px;
-    padding: 10px 12px;
+    padding: 11px 11px;
     outline: none;
     width: 90%;
 }
 .c-form input:focus {
     border: 1px solid orange;
     background-color: rgba(0, 0, 0, 0.521) !important;
-    color: white !important;
+    color: orange !important;
 }
 .c-form textarea:focus {
     border: 1px solid orange;
     background-color: rgba(0, 0, 0, 0.521) !important;
-    color: white !important;
+    color: orange !important;
 }
 .c-form input:focus::placeholder  {
     color: orange !important;
@@ -236,18 +236,18 @@ body {
    font-size: 1.1rem;
 }
 .c-btn {
-    background-color: transparent;
+    background-color: red;
     padding: 8px 14px;
     font-size: 1.2rem;
-    border: 2px solid red;
+    border: 2px solid white;
     border-radius: 4px;
-    color: red;
+    color: white;
     width: 150px;
     transition: .3s ease-in-out;
 }
 .c-btn:hover {
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: red;
     border: 2px solid white;
 }
 .contact {
