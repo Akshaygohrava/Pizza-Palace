@@ -247,3 +247,47 @@ body {
     margin-top: 10px;
     color: black;
 }
+
+
+/* Sign In  */
+.sign-in-form {
+    height: 350px;
+    border: 1px solid red;
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgba(0, 128, 0, 0.568);
+    border-radius: 8px;
+    
+
+}
+.sign-in-form input {
+    padding: 7px 5px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 2px;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+.sign-in-form label {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: white;
+}
+.sign-in-form input:focus {
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.521) !important;
+    color: red !important;
+}
+.sign-in-form textarea:focus {
+    border: 1px solid orange;
+    background-color: rgba(0, 0, 0, 0.521) !important;
+    color: orange !important;
+}
+.sign-in-form input:focus::placeholder  {
+    color: red !important;
+}
+.signin-btn {
+    width: 150px;
+}

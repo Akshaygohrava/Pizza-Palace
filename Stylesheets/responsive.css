@@ -30,6 +30,47 @@
 
 
 
+/* Sign In */
+
+.sign-in {
+    background-image: url('../Images/Menu-Items/𝗪𝗮𝗹𝗹𝗽𝗮𝗽𝗲𝗿.jpg');
+    background-size: contain;
+
+}
+.sign-up-form input, textarea {
+    background-color: rgba(192, 192, 192, 0.61) !important;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 10px;
+    outline: none;
+    width: 90%;
+}
+
+input:focus {
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.521) !important;
+    color: red !important;
+}
+textarea:focus {
+    border: 1px solid orange;
+    background-color: rgba(0, 0, 0, 0.521) !important;
+    color: orange !important;
+}
+input:focus::placeholder  {
+    color: red !important;
+}
+textarea:focus::placeholder  {
+    color: orange !important;
+}
+input::placeholder {
+   color: black !important;
+   font-size: 1.1rem;
+}
+textarea::placeholder {
+   color: black !important;
+   font-size: 1.1rem;
+}
+
 
 
 
@@ -123,6 +164,9 @@
     outline: none;
     width: 70%;
 }
+.c-textarea {
+    width: 70%;
+}
 .c-form-data {
     display: flex;
     flex-direction: column;
@@ -137,10 +181,86 @@
 }
 
 /* Sign Up */
+.sign-up {
+    background-image: url('../Images/Menu-Items/Pizza\ Hut_\ Pizza\ 🍕.jpg');
+    background-size: contain;
+    
+}
 .sign-up-form {
+    width: 50%;
+    padding-bottom: 20px !important;
+    height: 530px;
+}
+
+.sign-up-form input, textarea {
+    background-color: rgba(192, 192, 192, 0.61) !important;
+    border: none;
+    border-radius: 4px;
+    padding: 11px 11px;
+    outline: none;
     width: 50%;
 }
 
+.sign-up-form input:focus {
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.521) !important;
+    color: red !important;
+}
+.sign-up-form textarea:focus {
+    border: 1px solid orange;
+    background-color: rgba(0, 0, 0, 0.521) !important;
+    color: orange !important;
+}
+.sign-up-form input:focus::placeholder  {
+    color: red !important;
+}
+.sign-up-form textarea:focus::placeholder  {
+    color: orange !important;
+}
+.sign-up-form input::placeholder {
+   color: black !important;
+   font-size: 1.1rem;
+}
+.sign-up-form textarea::placeholder {
+   color: black !important;
+   font-size: 1.1rem;
+}
+
+
+/* Sign In */
+.sign-in {
+    background-image: url('../Images/Menu-Items/Top\ view\ Photos\ -\ Download\ Free\ High-Quality\ Pictures\ _\ Freepik.jpg');
+    background-size: contain;
+}
+.sign-in-form {
+    height: 350px;
+    border: 1px solid red;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(0, 128, 0, 0.568);
+    border-radius: 8px;
+    
+
+}
+.sign-in-form input {
+    padding: 7px 5px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 2px;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+.sign-in-form label {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: white;
+}
+.signin-btn {
+    width: 200px;
+    padding: 20px 30px;
+}
 
 
 }
